@@ -1,0 +1,21 @@
+.mainH-desktop__list{
+  display: none;
+}
+.mainH__h1{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 143%;
+  letter-spacing: -0.02em;
+  color: #1b1c21;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.mainH__h1::before{
+  content: '';
+  width: 4px;
+  height: 40px;
+  background: url("./icons/ic/highlight.svg");
+}

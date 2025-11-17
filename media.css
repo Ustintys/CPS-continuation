@@ -1,0 +1,131 @@
+@media (width >=768px) {
+  .info{
+    display: flex;
+    justify-content: space-between;
+    min-width: 720px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .info__banner{
+    border-radius: 6px;
+    margin: 0;
+    width: 100%;
+  }
+  .info-container-img{
+    min-width: 360px;
+    width: 50%;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .info-container{
+    min-width: 312px;
+    width: 43%;
+    margin: 0;
+
+  }
+  .main__info-text--none{
+    display: block;
+  }
+  .main__info-text--1120{
+    display: none;
+  }
+  .header__item-repair{
+    order: 2;
+  }
+  .header__item-repair:before{
+    content: "";
+    width: 2px;
+    height: 32px;
+    background-color: #eaeaea;
+    border-radius: 1px;
+  }
+  .header__item-repair{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  .header__item-search{
+    order: 3;
+  }
+  .header__menu--before::before{
+    display: none;
+  }
+  .header__menu{
+    width: 290px;
+  }
+  .header__logo::before{
+    content: "";
+    width: 2px;
+    height: 32px;
+    background-color: #eaeaea;
+    border-radius: 1px;
+  }
+  .header__logo{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: auto;
+  }
+  .header__button{
+    margin-right: 20px;
+  }
+}
+@media (width >=1120px) {
+  .header{
+    display: none;
+  }
+  .info-container-img{
+    width: 531px;
+    height: 307px;
+  }
+  .main__info-text--1120{
+    display: inline;
+  }
+  .info{
+    width: 1060px;
+  }
+  .info-container{
+    width: 490px;
+  }
+  .main__menu{
+    width: 1060px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    height: 82px;
+  }
+  .main__menu-link--active{
+    margin-left: 0;
+  }
+  .main__menu-list{
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 82px;
+    align-content: space-between;
+  }
+  .mainH__h1{
+    gap: 30px;
+  }
+  .mainH-desktop__list{
+    display: flex;
+    gap: 32px;
+  }
+  .mainH-desktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 32px;
+  }
+  .mainH-desktop__item--did::before{
+    content: "Оставить заявку";
+  }
+  .mainH-desktop__item{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .mainH-desktop__item--status::before{
+    content: "Статус ремонта";
+  }
+}
