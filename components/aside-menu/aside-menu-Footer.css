@@ -1,3 +1,11 @@
+.footer-aside-menu{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.footer-aside-menu__inner{
+  margin-top: auto;
+}
 .footer-aside-menu__list{
   display: flex;
   align-items: center;
