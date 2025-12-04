@@ -22,8 +22,13 @@
 
 /*--------------------------------------------*/
 
-body{
+.aside-menu-inner{
   width: 320px;
+  background-color: white;
+}
+
+body{
   overflow-x: hidden;
   font-family: 'TTLakes', sans-serif;
+  background-color: #ECECEC;
 }
