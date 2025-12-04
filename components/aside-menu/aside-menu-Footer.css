@@ -1,10 +1,12 @@
 .footer-aside-menu{
-  display: flex;
-  flex-direction: column;
+  position: relative;
+  min-height: 240px;
   height: 100%;
 }
 .footer-aside-menu__inner{
-  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 .footer-aside-menu__list{
   display: flex;
