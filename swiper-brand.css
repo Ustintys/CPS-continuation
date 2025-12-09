@@ -1,0 +1,60 @@
+.swiper-brand__card{
+  width: 240px;
+  height: 72px;
+  background: #ffffff;
+  border-radius: 6px;
+  padding-left: 16px;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #eaeaea;
+}
+.swiper-brand {
+  width: 100%;
+  margin-top: 16px;
+  padding-bottom: 20px;
+}
+.swiper-brand::part(pagination){
+  position: static;
+  margin-top: 12px;
+}
+.swiper-brand::part(bullet) {
+  background: #c7c7c7;
+  opacity: 1;
+  height: 12px;
+  width: 12px;
+}
+.swiper-brand::part(bullet-active) {
+  background: #9a9a9a;
+  height: 12px;
+  width: 12px;
+}
+.swiper-brand__button{
+  width: 40px;
+  height: 40px;
+  border: 2px solid #FF3E79;
+  border-radius: 50%;
+  color: #FF3E79;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  padding-left: 2px;
+}
+.swiper-brand__slide{
+  max-width: 240px;
+}
+.brand__container-slider{
+  position: relative;
+}
+.brand__container-slider:after{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10%;
+  height: 72px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #f8f8f8);
+  z-index: 1;
+}

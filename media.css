@@ -70,6 +70,20 @@
   .header__button{
     margin-right: 20px;
   }
+
+
+  .brand__container-slider{
+    display: none;
+  }
+  .brand__container-laptop{
+    display: block;
+  }
+  .brand__container{
+    height: 56px;
+  }
+  .brand__paragraph{
+    padding-left: 24px;
+  }
 }
 
 
@@ -152,5 +166,18 @@
     align-items: center;
     justify-content: center;
     padding-top: 5px;
+  }
+
+  .brand__container-laptop{
+    width: 1056px;
+  }
+  .brand__paragraph{
+    padding-left: 32px;
+  }
+  .brand__list{
+    column-gap: 32px;
+  }
+  .brand__item{
+    width: 240px;
   }
 }

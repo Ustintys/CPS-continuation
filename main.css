@@ -44,7 +44,7 @@
   width: 70%;
   margin: 0 auto 16px auto;
 }
-.main__button{
+.button-arrow{
   border: none;
   background-color: #F8F8F8;
   height: 24px;
@@ -55,7 +55,7 @@
   justify-content: center;
   gap: 18px;
 }
-.main__button--before::before{
+.button-arrow--before::before{
   content: "";
   height: 10px;
   width: 7px;
